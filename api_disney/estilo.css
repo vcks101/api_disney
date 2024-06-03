@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    text-align: center;
+    margin: 30px;
+    background-image: url("https://images.pexels.com/photos/1693095/pexels-photo-1693095.jpeg");
+    background-position: center;
+    background-repeat:unset
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 200px;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(182, 140, 202);
+
+}
+
+.card-img-top {
+    display: flex;
+    width: 280px;
+    height: 250px;
+    padding: 10px;
+}
+
+
+@font-face {
+    font-family: waltograph ;
+    src: url(waltographUI.ttf);
+}
+
+h1{
+    font-family: waltograph ; 
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    background-clip: text;
+    color: transparent;
+}
+
+
